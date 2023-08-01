@@ -1,0 +1,400 @@
+/* Estilização geral da página */
+.container-HomePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilização do topo da página com imagem de fundo */
+  .background-container {
+    width: 100%;
+    height: 351px;
+    background: url("/src/img/medicamento Grande.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 351px;
+    
+  }
+  
+  /* Estilização do conteúdo dentro do topo da página */
+  .content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+  }
+  
+  /* Estilização dos títulos do site */
+  .site-name {
+    font-size: 5rem;
+    font-weight: 500; 
+    margin: 0;
+  }
+  
+  .sub-title {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+  
+  }
+  
+  /* Estilização do botão de "Cadastre-se" */
+  .cadastro-button1{
+    background-color: #FFFFFF;
+    color: #605E5E;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    width: 200px;
+    box-shadow: 0 5px 10px 0px #0A265A;
+    margin: 40px;
+  }
+  
+  /* Estilização da seção de conteúdo principal */
+  .main-content {
+  
+    margin: 0;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 20px;
+    color: #605E5E
+  }
+  
+  .main-content h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 30px;
+    color: #605E5E
+  }
+  
+  .main-content p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100px;
+    font-size: 1rem;
+  
+  }
+  
+  /* Estilização das estrelas de avaliação */
+  .stars {
+    display: flex;
+    justify-content: center;
+    margin-top: 0 auto 20px
+  }
+  
+  .spacing {
+    height: 80px; 
+    
+  }
+  
+  
+  /* Estilização do container dos retângulos de destaques */
+  .rectangle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+  }
+  
+  /* Estilização dos retângulos de destaques */
+  .rectangleCliente {
+    width: 300px;
+    color: #605E5E
+   
+  }
+  
+  .rectangle1{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    margin: 0 20px;
+    padding: 20px;
+    font-size: 1.2rem;
+    color: #605E5E
+    
+  }
+  
+  /* Estilização da seção de avaliação */
+  #Avaliation {
+  
+   display: flex;
+   justify-content: space-around;
+  }
+  
+  
+  
+  .rectangle p {
+    font-size: 1.2rem;
+    color: #605E5E
+  }
+  
+  
+  .new-content img {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    margin: 0 auto 20px; 
+  }
+  
+  .new-content h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #605E5E
+  }
+  
+  .new-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #605E5E
+  }
+  
+  
+  .where-to-find {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  /* Estilização para a seção da página dois */
+  .page-two {
+    height: 100vh;
+    padding: 10px;
+    max-width: 1200px;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  
+  .rectanglePage2 {
+    padding: 60px;
+    display: flex;
+    text-align: left; 
+    margin-right: 20px; 
+    background: #bbd9fa51;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+  }
+  
+  /* Estilização do retângulo da página dois */
+  .rectanglePage2 p{
+    font-size: 1.2rem;
+    color: #605E5E;
+  
+  }
+  
+  /* Estilização do botão de "Junte-se a nós" */
+  .cadastro-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    width: 390px;
+    box-shadow: 0 5px 10px 0px #0A265A;
+    max-width: 390px;
+  }
+  
+  /* Estilização da seção da página três */
+  .page-tree {
+    height: 100vh;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* Estilização para a seção de localização */
+  .container-Localiza {
+    margin-top: 0 40px;
+    
+  }
+  
+  .container-Localiza h2 {
+    font-family:'Montserrat' ;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: #605E5E;
+  }
+  
+  .localization-rectangle {
+    background: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 50px;
+  
+  }
+  
+  .localization-rectangle p {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 300px;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilização para a seção de pessoas do LinkedIn */
+  .linkedin-rectangle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .linkedin-person {
+    width: 75px;
+    text-align: center;
+  }
+  
+  .linkedin-person-image {
+    background-color: #ccc;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+  }
+  
+  .linkedin-person p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .linkedin-person a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .linkedin-person a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilização para o mapa do Google */
+  iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Estilização para a seção de contato */
+  .page-four {
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-title h2{
+    font-size: 2rem;
+    font-weight: 100;
+    color: #605E5E;
+    margin-bottom: 50px;
+  }
+  
+  .contato-container {
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .retangulo-esquerdo {
+    flex: 1;
+    max-width: 800px;
+    padding: 60px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+  }
+  
+  .retangulo-direito {
+    font-family:'Montserrat' ;
+    flex: 1;
+    max-width: 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contato-form h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #605E5E;
+  }
+  .contato-form p {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #605E5E;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-family:'Montserrat' ;
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #605E5E;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    font-family:'Montserrat' ;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .enviar-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    width: 390px;
+    box-shadow: 0 5px 10px 0px #0A265A;
+  }
+  
+  .contato-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  /* Estilização do radapé da página*/
+  .baseboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+  }
+  
+  .baseboard-image {
+    max-width: 300px; 
+    max-height: 100px; 
+    border-radius: 5px;
+  }
